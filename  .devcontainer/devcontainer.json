@@ -2,7 +2,7 @@
     "name": "Dev Container",
     "image": "ubuntu:latest",
     "mounts": [
-      "source=/,target=/workspace,type=bind"
+      "source=./src,target=/workspace,type=bind"
     ],
     "workspaceFolder": "/workspace",
     "customizations": {
